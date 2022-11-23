@@ -1,0 +1,100 @@
+.departureFieldAutocomplete {
+  align-self: stretch;
+}
+.inputGroupDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.inputsRowDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.buttonDiv {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 146.98px;
+}
+.buttonGroupDiv,
+.searchFlightsButton,
+.searchFormDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  border-radius: var(--br-xs);
+  width: 164px;
+  height: 56px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.searchFlightsButton,
+.searchFlightsButton:hover {
+  background-color: var(--color-orange-100);
+}
+.buttonGroupDiv,
+.searchFormDiv {
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.searchFormDiv {
+  align-self: stretch;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-md);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+@media screen and (max-width: 767px) {
+  .inputsRowDiv {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .searchFlightsButton {
+    margin-right: auto;
+  }
+  .buttonGroupDiv {
+    width: 100%;
+    text-align: left;
+  }
+  .searchFormDiv {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 427px) {
+  .inputGroupDiv {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputsRowDiv {
+    flex-direction: column;
+  }
+  .searchFlightsButton {
+    width: 100% !important;
+  }
+}

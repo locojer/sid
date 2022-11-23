@@ -1,0 +1,245 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.rectangleButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-300);
+  position: absolute;
+  top: 106px;
+  left: 180px;
+  width: 126px;
+  height: 68px;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 370px;
+  left: 192px;
+  width: 128px;
+  height: 83px;
+  object-fit: cover;
+}
+.rectangleTextField {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 276px;
+  left: 407px;
+}
+.buttonContainedTextAndIco {
+  position: absolute;
+  top: 504px;
+  left: 298px;
+}
+.inputFilledTextField {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 593px;
+  left: 238px;
+}
+.selectOutlinedFormControl {
+  position: absolute;
+  top: 794px;
+  left: 244px;
+}
+.radioCheckedRadioAndLabel {
+  position: absolute;
+  top: 934px;
+  left: 299px;
+}
+.radioCheckedRadioOnly {
+  position: absolute;
+  top: 535px;
+  left: 551px;
+}
+.rectangleButton1,
+.rectangleButton2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-300);
+  position: absolute;
+  top: 138px;
+  width: 86px;
+  height: 86px;
+}
+.rectangleButton1 {
+  left: 493px;
+  opacity: 0;
+}
+.rectangleButton1.animate,
+.rectangleTextarea1.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.rectangleButton2 {
+  left: 620px;
+}
+.rectangleButton3 {
+  cursor: pointer;
+  padding: 0;
+  left: 589px;
+}
+.rectangleButton3,
+.rectangleButton4,
+.rectangleTextarea {
+  border: 0;
+  background-color: var(--color-gray-300);
+  position: absolute;
+  top: 395px;
+  width: 91px;
+  height: 91px;
+}
+.rectangleButton4 {
+  cursor: pointer;
+  padding: 0;
+  left: 706px;
+}
+.rectangleTextarea {
+  left: 823px;
+}
+.rectangleButton5,
+.rectangleButton6,
+.rectangleButton7,
+.rectangleButton8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-300);
+  position: absolute;
+  top: 654px;
+  left: 635px;
+  width: 71px;
+  height: 71px;
+}
+.rectangleButton6,
+.rectangleButton7,
+.rectangleButton8 {
+  top: 863px;
+  left: 520px;
+  width: 82px;
+  height: 82px;
+}
+.rectangleButton7,
+.rectangleButton8 {
+  left: 639px;
+}
+.rectangleButton8 {
+  left: 741px;
+}
+.rectangleButton9,
+.rectangleDiv {
+  top: 1088px;
+  width: 103px;
+  height: 103px;
+}
+.rectangleButton9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-300);
+  position: absolute;
+  left: 229px;
+}
+.rectangleDiv {
+  left: 356px;
+}
+.rectangleButton10,
+.rectangleButton11,
+.rectangleDiv,
+.rectangleDiv1 {
+  position: absolute;
+  background-color: var(--color-gray-300);
+}
+.rectangleButton10 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 1088px;
+  left: 500px;
+  width: 103px;
+  height: 103px;
+}
+.rectangleButton11,
+.rectangleDiv1 {
+  left: 191px;
+  width: 85px;
+  height: 85px;
+}
+.rectangleButton11 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 1376px;
+}
+.rectangleDiv1 {
+  top: 1469px;
+}
+.rectangleTextarea1 {
+  border: 0;
+  top: 1376px;
+  left: 280px;
+  opacity: 0;
+}
+.rectangleButton12,
+.rectangleDiv2,
+.rectangleDiv3,
+.rectangleDiv4,
+.rectangleTextarea1 {
+  position: absolute;
+  background-color: var(--color-gray-300);
+  width: 85px;
+  height: 85px;
+}
+.rectangleDiv2 {
+  top: 1469px;
+  left: 280px;
+}
+.rectangleButton12,
+.rectangleDiv3,
+.rectangleDiv4 {
+  left: 369px;
+}
+.rectangleButton12 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 1376px;
+  opacity: 1;
+}
+.rectangleButton12.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.rectangleDiv3,
+.rectangleDiv4 {
+  top: 1469px;
+}
+.rectangleDiv4 {
+  top: 2017px;
+  left: 349px;
+  width: 111px;
+  height: 111px;
+}
+.frameDiv {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2816px;
+  overflow: hidden;
+}

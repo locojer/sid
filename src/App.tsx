@@ -4,15 +4,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Home from "./pages/Home";
-import Burger from "./pages/Burger";
-import BurgerOpen from "./pages/BurgerOpen";
-import Contacts from "./pages/Contacts";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Icons from "./pages/Icons";
-import Contacts1 from "./pages/Contacts1";
-import Support from "./pages/Support";
+import Homepage from "./pages/Homepage";
+import FrameComponent from "./pages/FrameComponent";
 import { useEffect } from "react";
 
 function App() {
@@ -36,35 +29,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/burger":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/burger-open":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/contacts":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/about":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/projects":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/icons":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/contacts1":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/support":
+      case "/frame-1000000876":
         title = "";
         metaDescription = "";
         break;
@@ -86,23 +51,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Homepage />} />
 
-      <Route path="/burger" element={<Burger />} />
-
-      <Route path="/burger-open" element={<BurgerOpen />} />
-
-      <Route path="/contacts" element={<Contacts />} />
-
-      <Route path="/about" element={<About />} />
-
-      <Route path="/projects" element={<Projects />} />
-
-      <Route path="/icons" element={<Icons />} />
-
-      <Route path="/contacts1" element={<Contacts1 />} />
-
-      <Route path="/support" element={<Support />} />
+      <Route path="/frame-1000000876" element={<FrameComponent />} />
     </Routes>
   );
 }

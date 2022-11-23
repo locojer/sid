@@ -1,0 +1,564 @@
+.ellipseIcon {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.frameDiv1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameDiv,
+.frameDiv6 {
+  position: absolute;
+  width: 103px;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+}
+.frameDiv {
+  top: 1134px;
+  left: 1363px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameDiv6 {
+  top: 511px;
+  left: 1390px;
+}
+.frameDiv12,
+.frameDiv16,
+.frameDiv6 {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameDiv16 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+}
+.frameDiv12 {
+  position: absolute;
+  top: 145px;
+  left: 46px;
+  width: 109px;
+  height: 49px;
+  display: flex;
+  flex-direction: column;
+}
+.rectangleDiv,
+.rectangleDiv1 {
+  position: absolute;
+  top: 965px;
+  left: 0;
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  width: 155px;
+  height: 155px;
+}
+.rectangleDiv1 {
+  top: 0;
+  left: 1375px;
+}
+.backgroundDiv {
+  position: absolute;
+  top: 256px;
+  left: -77px;
+  width: 1530px;
+  height: 1237px;
+}
+.lineDiv {
+  position: relative;
+  border-top: 1px solid var(--gray);
+  box-sizing: border-box;
+  width: 1367px;
+  height: 1px;
+  flex-shrink: 0;
+}
+.eliasB {
+  position: absolute;
+  top: 0;
+  left: 31.43%;
+  display: inline-block;
+}
+.rectangleDiv2,
+.rectangleDiv3 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+}
+.rectangleDiv2 {
+  top: 0;
+  right: 25%;
+  bottom: 75%;
+  left: 50%;
+  background-color: var(--white);
+}
+.rectangleDiv3 {
+  top: 50%;
+  bottom: 25%;
+}
+.rectangleDiv3,
+.rectangleDiv4,
+.rectangleDiv5 {
+  right: 0;
+  left: 75%;
+  background-color: var(--white);
+}
+.rectangleDiv4 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  top: 25%;
+  bottom: 50%;
+}
+.rectangleDiv5 {
+  top: 0;
+  bottom: 75%;
+}
+.rectangleDiv5,
+.rectangleDiv6,
+.rectangleDiv7 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+}
+.rectangleDiv6 {
+  top: 50%;
+  right: 25%;
+  bottom: 25%;
+  left: 50%;
+  background-color: var(--white);
+}
+.rectangleDiv7 {
+  right: 50%;
+  left: 25%;
+}
+.rectangleDiv7,
+.rectangleDiv8 {
+  top: 25%;
+  bottom: 50%;
+  background-color: var(--white);
+}
+.rectangleDiv10,
+.rectangleDiv8,
+.rectangleDiv9 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  right: 75%;
+  left: 0;
+}
+.rectangleDiv9 {
+  top: 50%;
+  bottom: 25%;
+  background-color: var(--white);
+}
+.rectangleDiv10 {
+  top: 75%;
+  bottom: 0;
+}
+.rectangleDiv10,
+.rectangleDiv11,
+.unionDiv {
+  background-color: var(--white);
+}
+.rectangleDiv11 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  top: 75%;
+  right: 50%;
+  bottom: 0;
+  left: 25%;
+}
+.unionDiv {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.groupDiv1,
+.logoDiv {
+  position: absolute;
+  height: 77.42%;
+  width: 22.86%;
+  top: 12.9%;
+  right: 77.14%;
+  bottom: 9.68%;
+  left: 0;
+}
+.groupDiv1 {
+  height: 34.83%;
+  width: 22.06%;
+  top: 0;
+  right: 77.94%;
+  bottom: 65.17%;
+  font-size: var(--font-size-lg);
+}
+.webDesignerAndFrontEndDev {
+  position: absolute;
+  width: 100%;
+  top: 52.81%;
+  left: 0;
+  display: inline-block;
+}
+.eliaseliasmlDiv {
+  position: absolute;
+  top: 5.62%;
+  left: 28.78%;
+  color: var(--gray);
+  display: inline-block;
+}
+.groupDiv {
+  position: relative;
+  width: 476px;
+  height: 89px;
+  flex-shrink: 0;
+}
+.groupIcon,
+.mediaDiv {
+  position: absolute;
+  left: 0;
+}
+.mediaDiv {
+  top: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupIcon {
+  height: 42.67%;
+  width: 100%;
+  top: 57.33%;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupDiv2 {
+  position: relative;
+  width: 112px;
+  height: 75px;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+.frameDiv19 {
+  width: 1025px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.copyright2022MadeByElias {
+  position: relative;
+  color: var(--gray);
+  display: inline-block;
+}
+.footerDiv,
+.frameDiv18 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.footerDiv {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 682.5px);
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  color: var(--white);
+}
+.contactsDiv1,
+.div {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.contactsDiv1 {
+  color: var(--white);
+}
+.frameDiv20,
+.whoAmI {
+  position: absolute;
+  left: 0;
+}
+.frameDiv20 {
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.whoAmI {
+  top: 56px;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  display: inline-block;
+}
+.titleDiv {
+  position: absolute;
+  top: 114px;
+  left: 171px;
+  width: 174px;
+  height: 77px;
+  font-size: var(--font-size-xl);
+  color: var(--primary);
+}
+.smallProjectsDiv {
+  position: relative;
+  font-weight: 500;
+  color: var(--white);
+  display: inline-block;
+}
+.h2Div {
+  position: absolute;
+  top: 403px;
+  left: 171px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+  font-size: var(--font-size-xl);
+  color: var(--primary);
+}
+.twitterIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.eliasDiv {
+  position: relative;
+  display: inline-block;
+}
+.mediaDiv1,
+.mediaDiv2 {
+  position: absolute;
+  top: 467px;
+  left: 171px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.mediaDiv2 {
+  top: 466px;
+  left: 288px;
+}
+.groupDiv3,
+.imInterestedInFreelanceOp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 505px;
+}
+.imInterestedInFreelanceOp {
+  font-weight: 500;
+  display: inline-block;
+}
+.groupDiv3 {
+  height: 63px;
+}
+.frameDiv21,
+.frameDiv22,
+.groupDiv5 {
+  display: flex;
+  justify-content: flex-start;
+}
+.groupDiv5 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.frameDiv21,
+.frameDiv22 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameDiv22 {
+  gap: var(--gap-sm);
+  color: var(--gray);
+}
+.frameDiv21 {
+  position: absolute;
+  top: 0;
+  left: 197px;
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  padding: var(--padding-md);
+  gap: var(--gap-xl);
+}
+.supportMeHere {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameDiv23 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-md);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.contactDiv,
+.groupDiv4 {
+  position: absolute;
+  height: 141px;
+}
+.groupDiv4 {
+  top: 0;
+  left: 622px;
+  width: 401px;
+  color: var(--white);
+}
+.contactDiv {
+  top: 237px;
+  left: 171px;
+  width: 1023px;
+}
+.logoDiv1,
+.unionDiv1 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.unionDiv1 {
+  background-color: var(--white);
+}
+.logoDiv1 {
+  flex-shrink: 0;
+}
+.frameDiv24 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.frameDiv24,
+.headerLinkDiv {
+  cursor: pointer;
+}
+.headerLinkDiv,
+.headerLinkDiv1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.eNDiv {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 0;
+}
+.groupIcon1 {
+  position: relative;
+  width: 10px;
+  height: 6.41px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameDiv26 {
+  margin: 0 !important;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: var(--background);
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  height: 1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-sm);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  opacity: 0;
+  z-index: 2;
+}
+.languageSwitcherDiv {
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-2xs);
+  color: var(--gray);
+}
+.frameDiv25,
+.headerDiv,
+.languageSwitcherDiv {
+  display: flex;
+  flex-direction: row;
+}
+.frameDiv25 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  color: var(--primary);
+}
+.headerDiv {
+  position: absolute;
+  top: 0;
+  left: 171px;
+  background-color: var(--background);
+  width: 1024px;
+  padding: var(--padding-lg) 0 var(--padding-sm);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: var(--white);
+}
+.line10Stroke {
+  position: relative;
+  width: 1px;
+  height: 191px;
+  flex-shrink: 0;
+}
+.frameDiv27 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.contactsDiv,
+.mediaDiv3 {
+  background-color: var(--background);
+}
+.mediaDiv3 {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.contactsDiv {
+  position: relative;
+  width: 100%;
+  height: 887px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+  font-family: var(--font-fira-code);
+}

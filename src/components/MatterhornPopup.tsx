@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import VideoPopup from "../components/VideoPopup";
 import styles from "./MatterhornPopup.module.css";
 
 type MatterhornPopupType = {
@@ -11,7 +10,15 @@ const MatterhornPopup: FunctionComponent<MatterhornPopupType> = ({
 }) => {
   return (
     <div className={styles.matterhornPopupDiv}>
-      <VideoPopup />
+      <div className={styles.videoPopupDiv}>
+        <div className={styles.outerFrameDiv} />
+        <iframe
+          className={styles.videoContainerIframe}
+          src={`https://www.youtube.com/embed/DJImX19wyLY?rel=0&autoplay=1&mute=1`}
+          frameBorder="0"
+          allowFullScreen
+        />
+      </div>
     </div>
   );
 };

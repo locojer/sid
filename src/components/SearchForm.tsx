@@ -11,10 +11,6 @@ const SearchForm: FunctionComponent = () => {
   const onSearchFlightsButtonClick = useCallback(() => {
     // Please sync "Results Page" to the project
   }, []);
-  
-  const onJeraldineClick = useCallback(() => {
-    // Please sync "Results Page" to the project
-  }, []);
 
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
@@ -25,7 +21,7 @@ const SearchForm: FunctionComponent = () => {
               className={styles.departureFieldAutocomplete}
               disablePortal
               options={[
-                "Jeraldine (JER)",
+                "Singapore (SIN)",
                 "Sydney (SYD)",
                 "Siem Reap (REP)",
                 "Shanghai (PVG)Sanya (SYX)",
